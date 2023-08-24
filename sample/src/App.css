@@ -1,0 +1,17 @@
+
+  
+  /* Styling the scrollbar handle (draggable part) */
+  .custom-scrollable-menu::-webkit-scrollbar-thumb {
+    background-color:#e6bd71;
+  }
+  
+  /* Decrease the scrollbar size */
+  .custom-scrollable-menu::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  
+  /* Change scrollbar color on hover */
+  .custom-scrollable-menu::-webkit-scrollbar-thumb:hover {
+    background-color: #e6bd71;
+  }
